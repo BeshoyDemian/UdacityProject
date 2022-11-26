@@ -1,7 +1,7 @@
 # Hosting a Full-Stack Application
 [AWS Infrastructure Description](./Documentation/Infrastructure%20description.md)
 
-![ARC](./Documentation/Infrastructure%20Diagram.png)
+![ARC](./Documentation/infrastructure%20Diagram.png)
 
 [PipeLine Process](./Documentation/Pipeline.md)
 
