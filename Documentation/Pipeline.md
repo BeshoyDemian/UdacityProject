@@ -1,5 +1,7 @@
 [PipeLine Process](./Documentation/pipeline%20Diagram.png)
 
+![ARC](./Documentation/Pipeline.md)
+
 Continuous Integration
 1- The developer commit and push his code to the GitHub repository
 2- Then circleci paltform is triggered 
