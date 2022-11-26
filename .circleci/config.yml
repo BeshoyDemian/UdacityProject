@@ -51,7 +51,7 @@ jobs:
       # more setup needed for aws, node, elastic beanstalk
     steps:
       - node/install:
-          node-version: '14.15' 
+          node-version: '16.0' 
       - eb/setup
       - aws-cli/setup
       - checkout
@@ -60,9 +60,7 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
-            npm run api:deploy
-            npm run frontend:deploy
-            
+            npm run deploy            
 workflows:
   udagram:
     jobs:
