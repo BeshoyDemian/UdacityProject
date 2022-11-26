@@ -8,6 +8,7 @@ AWS CLI v2, v1 can work but was not tested for this project
 
 - S3 bucket.
 - RDS database Postgres.
+- AWS CLI v2, v1 can work but was not tested for this project.
 
 Angular 8.2.14 for the frontend.
 
