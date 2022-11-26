@@ -1,6 +1,6 @@
-[AWS Infrastructure Description](./Documentation/infrastructure%20Diagram.png)
+[AWS Infrastructure Description](./Documentation/Infrastructure%20description.md)
 
-![ARC](./Documentation/Infrastructure%20description.md)
+![ARC](./Documentation/infrastructure%20Diagram.png)
 
 we had 3 parts 
 
