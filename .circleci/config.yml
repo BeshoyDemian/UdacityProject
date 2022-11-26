@@ -64,19 +64,21 @@ jobs:
             npm run api:install
             npm run frontend:lint
             npm run api:build
+            npm run frontend:build
             npm run deploy            
 workflows:
   udagram:
     jobs:
-      - build
-      - hold:
-          filters:
-            branches:
-              only:
-                - master
-          type: approval
-          requires:
-            - build
-      - deploy:
-          requires:
-            - hold
+#      - build
+#      - hold:
+#          filters:
+#           branches:
+#             only:
+#               - master
+#         type: approval
+#         requires:
+#           - build
+      - deploy
+#:
+#         requires:
+#           - hold
