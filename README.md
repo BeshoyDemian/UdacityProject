@@ -1,11 +1,11 @@
 # Hosting a Full-Stack Application
 [AWS Infrastructure Description](./Documentation/Infrastructure%20description.md)
 
-![ARC](./Documentation/Infrastructure%20description.md)
+![ARC](./Documentation/Infrastructure%20Diagram.png)
 
 [PipeLine Process](./Documentation/Pipeline.md)
 
-![ARC](./Documentation/Pipeline.md)
+![ARC](./Documentation/pipeline%20Diagram.png)
 
 # Udagram
 

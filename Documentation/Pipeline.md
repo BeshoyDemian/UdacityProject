@@ -1,6 +1,6 @@
-[PipeLine Process](./Documentation/Pipeline.md)
+[PipeLine Process](./Pipeline.md)
 
-![ARC](./Documentation/pipeline%20Diagram.png)
+![ARC](./pipeline%20Diagram.png)
 
 Continuous Integration
 1- The developer commit and push his code to the GitHub repository
