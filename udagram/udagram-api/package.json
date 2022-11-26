@@ -8,10 +8,10 @@
   "main": "server.ts",
   "scripts": {
     "start": "node ./www/server.js",
-    "tsc": "npx tsc",
-    "dev": "npx ts-node-dev --respawn --transpileOnly ./src/server.ts",
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/server.ts",
     "prod": "npx tsc && node ./www/server.js",
-    "deploy": "npm run build && eb list && eb use udagram-api-dev && eb deploy",
+    "deploy": "npm run build && eb list && eb use udagram-api-dev && eb deploy udagram-api-dev",
     "clean": "rm -rf www/ || true",
     "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd .. ",
     "test": "echo \"Error: no test specified\" && exit 1"
